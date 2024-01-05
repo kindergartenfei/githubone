@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+.pigeon {
+
+    // 初始进入的文字
+    .qw2_top_ {
+        width: 7.2rem;
+        height: 4.65rem;
+        color: white;
+        background-image: url(../imgs/top.png);
+        background-position: 0rem 0rem;
+        background-size: 7.2rem 4.65rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        .qw2_top_1 {
+            width: 4.6rem;
+            margin: 1rem auto 0.2rem;
+            text-align: center;
+            font-size: 0.3rem;
+            letter-spacing: 0.3rem;
+
+        }
+
+        .qw2_top_2 {
+            text-align: center;
+            font-size: 0.5rem;
+        }
+    }
+
+    //第二段文字
+    .texttwo {
+        width: 7.2rem;
+        height: 4.65rem;
+        color: white;
+        background-image: url(../imgs/top.png);
+        background-position: 0rem 0rem;
+        background-size: 7.2rem 4.65rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+
+        .text1 {
+            margin-top: 0.9rem;
+            margin-left: 1.2rem;
+            font-size: 0.40rem;
+        }
+
+        .text2 {
+            margin-top: 0.8rem;
+            margin-left: 3.7rem;
+            font-size: 0.2rem;
+        }
+    }
+
+    //第三段文字
+    .textthree {
+        width: 7.2rem;
+        height: 4.65rem;
+        position: absolute;
+        color: white;
+        background-image: url(../imgs/top.png);
+        background-position: 0rem 0rem;
+        background-size: 7.2rem 4.65rem;
+        background-repeat: no-repeat;
+        display: none;
+
+        img {
+            width: 0.76rem;
+        }
+
+        .text {
+            .top {
+                display: flex;
+
+                .text1 {
+                    position: absolute;
+                    top: 1.1rem;
+                    left: 1.41rem;
+                    font-size: 0.4rem;
+                }
+
+                .text2 {
+                    position: absolute;
+                    top: 1.10rem;
+                    left: 2.45rem;
+                    margin-top: 0.1rem;
+                    font-size: 0.3rem;
+                }
+            }
+
+            .content {
+                display: flex;
+                font-size: 0.24rem;
+
+                .img {
+                    position: absolute;
+                    top: 1.82rem;
+                    left: 2.03rem;
+                }
+
+                .text {
+                    width: 2.5rem;
+                    position: absolute;
+                    top: 1.74rem;
+                    left: 3.18rem;
+                }
+            }
+
+            .bottom {
+                width: 2rem;
+                position: absolute;
+                top: 3.1rem;
+                left: 3.6rem;
+                font-size: 0.2rem;
+            }
+        }
+    }
+
+    //第五段文字
+    .textfive {
+        width: 7.2rem;
+        height: 4.65rem;
+        color: white;
+        background-image: url(../imgs/top.png);
+        background-position: 0rem 0rem;
+        background-size: 7.2rem 4.65rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+
+        .top {
+            margin-top: 1rem;
+            margin-left: 1.3rem;
+            font-size: 0.35rem;
+            font-weight: 600;
+
+
+        }
+
+        .bottom {
+            margin-left: 1.3rem;
+            margin-top: 0.2rem;
+        }
+    }
+
+    //第四段文字
+    .textfour {
+        width: 7.2rem;
+        height: 4.65rem;
+        color: white;
+        background-image: url(../imgs/top.png);
+        background-position: 0rem 0rem;
+        background-size: 7.2rem 4.65rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+
+        .top {
+            display: flex;
+            margin-top: 1rem;
+            margin-left: 1.3rem;
+            font-size: 0.35rem;
+
+            img {
+                width: 0.76rem;
+                height: 0.76rem;
+            }
+
+            p {
+                margin-left: 0.1rem;
+            }
+        }
+
+        .bottom {
+            width: 7rem;
+            margin: 0.2rem auto 0;
+            text-align: center;
+        }
+    }
+
+    //飞天的柱子
+    .flying {
+        position: absolute;
+        bottom: -1.81rem;
+        left: 3.13rem;
+        display: none;
+        z-index: 4;
+
+        img {
+            width: 1rem;
+        }
+    }
+
+    //升天后的布局
+    .qw3 {
+        width: 7.2rem;
+        height: 100%;
+        position: absolute;
+        top: 0rem;
+        display: none;
+        color: white;
+        overflow: hidden;
+
+        .top {
+            margin-top: 0.9rem;
+            margin-left: 1.1rem;
+            line-height: 0.6rem;
+
+            .t1 {
+                display: flex;
+                font-size: 0.3rem;
+
+                div {
+                    width: 2rem;
+                    height: 0.6rem;
+                    border: 0.01rem solid;
+                    border-radius: 0.3rem;
+                    margin-left: 1rem;
+                    text-align: center;
+                    position: relative;
+
+                    img {
+                        width: 0.26rem;
+                        position: absolute;
+                        top: 0.15rem;
+                        left: 0.23rem;
+                    }
+
+                    p {
+                        font-size: 0.24rem;
+                        width: 2rem;
+                        text-align: center;
+
+                    }
+
+                    display: flex;
+                }
+            }
+
+            .t2 {
+                font-size: 0.3rem;
+
+                span {
+                    font-size: 0.5rem;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .star {
+            .number {
+                width: 1.86rem;
+                height: 0.46rem;
+                border: 3px solid white;
+                // background-color: red();
+                border-radius: 0.1rem;
+                line-height: 0.4rem;
+                text-align: center;
+            }
+
+            .star_1 {
+                position: absolute;
+                top: 4rem;
+                left: 2.55rem;
+
+                .star {
+                    width: 2.1rem;
+                }
+
+                .gz {
+                    width: 0.7rem;
+                    position: absolute;
+                    top: -0.6rem;
+                    left: 0.7rem;
+                }
+
+                .number {
+                    position: absolute;
+                    top: 0.8rem;
+                    left: 0.12rem;
+                }
+
+            }
+
+            .star_2 {
+                position: absolute;
+                top: 5rem;
+                left: 5.2rem;
+
+                .star {
+                    width: 1.8rem;
+                }
+
+                .gz {
+                    width: 0.7rem;
+                    position: absolute;
+                    top: -0.6rem;
+                    left: 0.5rem;
+                }
+
+                .number {
+                    position: absolute;
+                    top: 0.9rem;
+                    left: 0rem;
+                }
+            }
+
+            .star_3 {
+                position: absolute;
+                top: 5rem;
+                left: 0.43rem;
+
+                .star {
+                    width: 1.6rem;
+                }
+
+                .gz {
+                    width: 0.7rem;
+                    position: absolute;
+                    top: -0.6rem;
+                    left: 0.5rem;
+                }
+
+                .number {
+                    position: absolute;
+                    top: 0.8rem;
+                    left: -0.1rem;
+                }
+            }
+        }
+
+        .bottom {
+            display: flex;
+            position: absolute;
+            bottom: 0.6rem;
+            left: 0.7rem;
+
+            div {
+                width: 2rem;
+                height: 0.6rem;
+                text-align: center;
+                line-height: 0.6rem;
+                border: 1px solid white;
+                border-radius: 0.3rem;
+            }
+
+            .claiam {
+                margin-left: 1.8rem;
+            }
+        }
+
+
+    }
+
+    .qw2 {
+        width: 7.2rem;
+        height: 11.6rem;
+        position: absolute;
+        bottom: 0;
+
+
+
+        .qw2_road_1 {
+            position: absolute;
+            bottom: 0;
+            left: 2.6rem;
+
+
+            img {
+                width: 2rem;
+            }
+        }
+
+        .qw2_gz {
+            position: absolute;
+            bottom: 0;
+            left: 3.25rem;
+            z-index: 5;
+
+            img {
+                width: 0.7rem;
+            }
+        }
+
+        .qw2_yun_1 {
+            position: absolute;
+            bottom: 0;
+
+            img {
+                width: 7.2rem;
+            }
+        }
+
+        .qw2_yun_2 {
+            position: absolute;
+            bottom: 0.5rem;
+
+            img {
+                width: 7.2rem;
+            }
+        }
+
+        .qw2_yun_3 {
+            position: absolute;
+            bottom: 3rem;
+
+            img {
+                width: 7.2rem;
+            }
+        }
+
+        .qw2_shan {
+            position: absolute;
+            bottom: 7.2rem;
+
+            img {
+                width: 7.2rem;
+            }
+        }
+
+        .qw2_top {
+            position: relative;
+
+            img {
+                width: 7.2rem;
+            }
+
+
+        }
+
+        .qw2_text {
+            width: 100%;
+            text-align: center;
+            margin-top: 1rem;
+            position: absolute;
+            bottom: 4rem;
+            opacity: 0;
+
+            p {
+                margin-bottom: 1rem;
+                font-size: 0.4rem;
+                line-height: 1.6em;
+                color: #0c8f8d;
+            }
+
+            img {
+                width: 0.64rem;
+                margin: 0 auto;
+                z-index: 10;
+            }
+
+            .jt1 {
+                position: absolute;
+                top: 1.9rem;
+                left: 3.28rem;
+            }
+
+            .jt2 {
+                position: absolute;
+                top: 2.23rem;
+                left: 3.28rem;
+            }
+
+            .jt3 {
+                position: absolute;
+                top: 2.56rem;
+                left: 3.28rem;
+            }
+
+            .jt4 {
+                position: absolute;
+                top: 2.99rem;
+                left: 3.28rem;
+            }
+        }
+
+    }
+}

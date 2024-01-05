@@ -1,0 +1,627 @@
+.pigeon {
+  height: 100%;
+  background-image: url(../imgs/bg.jpg);
+  background-position: bottom;
+  background-size: 7.2rem 25.6rem;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.pigeon .none {
+  display: none;
+}
+.pigeon .block {
+  display: block;
+}
+.pigeon .qw1 {
+  width: 7.2rem;
+  height: 11.6rem;
+  background-image: url(../imgs/z36.png), url(../imgs/z35.png), url(../imgs/z29.png), url(../imgs/z15.png);
+  background-position: 0 3.6rem, 0 4rem, 0 6rem, 0 9.2rem, 0 -11.6rem;
+  background-size: 7.2rem 1.31rem, 7.2rem 4.8rem, 7.2rem 5.74rem, 7.2rem 2.4rem, 7.2rem 25.6rem;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  display: none;
+}
+.pigeon .qw1 .img_1 {
+  position: absolute;
+  left: 1.1rem;
+}
+.pigeon .qw1 .img_1 img {
+  width: 2.5rem;
+}
+.pigeon .qw1 .img_2 {
+  position: absolute;
+  left: 5.58rem;
+}
+.pigeon .qw1 .img_2 img {
+  width: 1.5rem;
+}
+.pigeon .qw1 .img_3 {
+  position: absolute;
+  left: 2.11rem;
+  z-index: 2;
+}
+.pigeon .qw1 .img_3 img {
+  width: 1.63rem;
+}
+.pigeon .qw1 .three_img1 {
+  position: absolute;
+  top: 4.55rem;
+  left: 4.33rem;
+}
+.pigeon .qw1 .three_img1 .i1 {
+  position: absolute;
+  top: -0.57rem;
+  left: 0.12rem;
+  animation: amm linear infinite 1000ms;
+}
+.pigeon .qw1 .three_img1 .i1 img {
+  width: 0.82rem;
+}
+.pigeon .qw1 .three_img1 .i2 img {
+  width: 1rem;
+}
+.pigeon .qw1 .three_img2 {
+  position: absolute;
+  top: 6.26rem;
+  left: 0.3579rem;
+}
+.pigeon .qw1 .three_img2 .i1 {
+  position: absolute;
+  top: -0.57rem;
+  left: 0.12rem;
+  animation: amm linear infinite 1000ms;
+}
+.pigeon .qw1 .three_img2 .i1 img {
+  width: 0.68rem;
+}
+.pigeon .qw1 .three_img2 .i2 img {
+  width: 1rem;
+}
+.pigeon .qw1 .three_img3 {
+  position: absolute;
+  top: 7.13rem;
+  right: 0.1rem;
+}
+.pigeon .qw1 .three_img3 .i1 {
+  position: absolute;
+  top: -0.57rem;
+  left: 0.23rem;
+  animation: amm linear infinite 1000ms;
+}
+.pigeon .qw1 .three_img3 .i1 img {
+  width: 0.6rem;
+}
+.pigeon .qw1 .three_img3 .i2 img {
+  width: 1.26rem;
+}
+.pigeon .qw1 .road_11 {
+  position: absolute;
+  top: 5.8rem;
+  left: 4.35rem;
+}
+.pigeon .qw1 .road_11 img {
+  width: 1rem;
+}
+.pigeon .qw1 .road_0 {
+  position: absolute;
+  top: 11.02rem;
+  left: 2.6rem;
+  display: block;
+  z-index: 10;
+}
+.pigeon .qw1 .road_0 img {
+  width: 2rem;
+}
+.pigeon .qw1 .road_1 {
+  position: absolute;
+  top: 10.7453rem;
+  left: 2.6rem;
+  z-index: 5;
+}
+.pigeon .qw1 .road_1 img {
+  width: 1rem;
+}
+.pigeon .qw1 .road_2 {
+  position: absolute;
+  top: 10.47rem;
+  left: 2.12rem;
+  z-index: 5;
+}
+.pigeon .qw1 .road_2 img {
+  width: 1rem;
+}
+.pigeon .qw1 .road_3 {
+  position: absolute;
+  top: 9.61rem;
+  left: 1.63rem;
+  z-index: 5;
+}
+.pigeon .qw1 .road_3 img {
+  width: 2rem;
+}
+.pigeon .qw1 .road_4 {
+  position: absolute;
+  top: 8.897rem;
+  left: 1.39rem;
+  z-index: 3;
+}
+.pigeon .qw1 .road_4 img {
+  width: 1.76rem;
+}
+.pigeon .qw1 .road_5 {
+  position: absolute;
+  top: 8.18rem;
+  left: 0.15rem;
+  z-index: 3;
+}
+.pigeon .qw1 .road_5 img {
+  width: 1.76rem;
+}
+.pigeon .qw1 .road_6 {
+  position: absolute;
+  top: 7.45rem;
+  left: 0.85rem;
+  z-index: 3;
+}
+.pigeon .qw1 .road_6 img {
+  width: 1rem;
+}
+.pigeon .qw1 .road_7 {
+  position: absolute;
+  top: 7.134rem;
+  left: 1.35rem;
+  z-index: 2;
+}
+.pigeon .qw1 .road_7 img {
+  width: 1rem;
+}
+.pigeon .qw1 .road_8 {
+  position: absolute;
+  top: 6.694rem;
+  left: 0.85rem;
+}
+.pigeon .qw1 .road_8 img {
+  width: 1.26rem;
+}
+.pigeon .qw1 .road_9 {
+  position: absolute;
+  top: 6.26rem;
+  left: 1.6rem;
+}
+.pigeon .qw1 .road_9 img {
+  width: 1.26rem;
+}
+.pigeon .qw1 .road_10 {
+  position: absolute;
+  top: 5.84rem;
+  left: 2.33rem;
+}
+.pigeon .qw1 .road_10 img {
+  width: 1.26rem;
+}
+.pigeon .qw1 .road_11 {
+  position: absolute;
+  top: 5.411rem;
+  left: 3.071rem;
+}
+.pigeon .qw1 .road_11 img {
+  width: 1.26rem;
+}
+.pigeon .qw1 .road_12 {
+  position: absolute;
+  top: 5.13rem;
+  left: 3.835rem;
+}
+.pigeon .qw1 .road_12 img {
+  width: 1rem;
+}
+.pigeon .qw1 .road_13 {
+  position: absolute;
+  top: 5.4rem;
+  left: 4.33rem;
+}
+.pigeon .qw1 .road_13 img {
+  width: 1rem;
+}
+.pigeon .qw1 .road_14 {
+  position: absolute;
+  top: 6.26rem;
+  left: 3.85rem;
+  z-index: 2;
+}
+.pigeon .qw1 .road_14 img {
+  width: 2rem;
+}
+.pigeon .qw1 .road_15 {
+  position: absolute;
+  top: 7.11rem;
+  left: 4.35rem;
+  z-index: 2;
+}
+.pigeon .qw1 .road_15 img {
+  width: 1rem;
+}
+.pigeon .qw1 .road_16 {
+  position: absolute;
+  top: 7.393rem;
+  left: 4.847rem;
+  z-index: 2;
+}
+.pigeon .qw1 .road_16 img {
+  width: 1rem;
+}
+.pigeon .qw1 .road_17 {
+  position: absolute;
+  top: 7.68rem;
+  left: 5.346rem;
+  z-index: 2;
+}
+.pigeon .qw1 .road_17 img {
+  width: 1rem;
+}
+.pigeon .qw1 .road_18 {
+  position: absolute;
+  top: 7.99rem;
+  left: 5.1rem;
+  z-index: 2;
+}
+.pigeon .qw1 .road_18 img {
+  width: 0.76rem;
+}
+.pigeon .qw1 .road_19 {
+  position: absolute;
+  top: 8.42rem;
+  left: 4.36rem;
+  z-index: 2;
+}
+.pigeon .qw1 .road_19 img {
+  width: 1.26rem;
+}
+.pigeon .qw1 .road_20 {
+  position: absolute;
+  top: 8.413rem;
+  left: 3.63rem;
+  z-index: 5;
+}
+.pigeon .qw1 .road_20 img {
+  width: 1.26rem;
+}
+.pigeon .qw1 .road_21 {
+  position: absolute;
+  top: 8.14rem;
+  left: 3.13rem;
+  z-index: 3;
+}
+.pigeon .qw1 .road_21 img {
+  width: 1rem;
+}
+.pigeon .qw1 .road_22 {
+  position: absolute;
+  top: 8.85rem;
+  left: 6.59rem;
+  z-index: 3;
+}
+.pigeon .qw1 .road_22 img {
+  width: 1rem;
+}
+.pigeon .gz {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 0rem;
+  left: 3.25rem;
+  z-index: 10;
+}
+.pigeon .gz img {
+  width: 0.7rem;
+}
+@keyframes amm {
+  0% {
+    top: -0.57rem;
+  }
+  50% {
+    top: -0.67rem;
+  }
+  100% {
+    top: -0.57rem;
+  }
+}
+.dalou {
+  animation: qqqq ease-out 2000ms;
+}
+@keyframes qqqq {
+  0% {
+    transform: translateY(8rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}
+.luotiydon {
+  animation: luoti linear 3000ms;
+}
+@keyframes luoti {
+  0% {
+    transform: translateY(8rem);
+  }
+  80% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}
+.scale1 {
+  width: 0.4rem;
+  height: 0.4rem;
+  border: 0.04rem solid white;
+  border-radius: 50%;
+  z-index: 999;
+  animation: ssss linear infinite 3000ms;
+  position: absolute;
+  top: 7.2rem;
+  left: 1.65rem;
+}
+.scale2 {
+  width: 0.4rem;
+  height: 0.4rem;
+  border: 0.04rem solid white;
+  border-radius: 50%;
+  z-index: 999;
+  animation: ssss linear infinite 3000ms;
+  position: absolute;
+  top: 5.2rem;
+  left: 4.12rem;
+}
+.scale3 {
+  width: 0.4rem;
+  height: 0.4rem;
+  border: 0.04rem solid white;
+  border-radius: 50%;
+  z-index: 999;
+  animation: ssss linear infinite 3000ms;
+  position: absolute;
+  top: 7.7rem;
+  left: 5.7rem;
+}
+.scale4 {
+  width: 0.4rem;
+  height: 0.4rem;
+  border: 0.04rem solid white;
+  border-radius: 50%;
+  z-index: 999;
+  animation: ssss linear infinite 3000ms;
+  position: absolute;
+  top: 8.2rem;
+  left: 3.4rem;
+}
+@keyframes ssss {
+  0% {
+    transform: scale(1);
+    border-width: 0.04rem;
+  }
+  50% {
+    transform: scale(2);
+    border-width: 0.02rem;
+  }
+  100% {
+    transform: scale(1);
+    border-width: 0.04rem;
+  }
+}
+.qipao {
+  width: 1.86rem;
+  height: 1.18rem;
+  background-image: url(../imgs/q.png);
+  background-size: 1.86rem 1.18rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 0.2rem;
+  padding-top: 0.1rem;
+  position: absolute;
+  top: 9.5rem;
+  left: 3.9rem;
+}
+.gzone {
+  background-size: 0.7rem 1rem;
+  animation: gzone linear 10000ms;
+}
+@keyframes gzone {
+  0% {
+    bottom: 0rem;
+    left: 3.25rem;
+  }
+  30% {
+    bottom: 1rem;
+    left: 1.85rem;
+  }
+  45% {
+    bottom: 1.6rem;
+    left: 2.65rem;
+  }
+  80% {
+    bottom: 2.8rem;
+    left: 0.55rem;
+  }
+  100% {
+    bottom: 4rem;
+    left: 1.54rem;
+  }
+}
+.gztwo {
+  animation: gztwo linear 5000ms;
+}
+@keyframes gztwo {
+  0% {
+    bottom: 4rem;
+    left: 1.54rem;
+  }
+  20% {
+    bottom: 4.3rem;
+    left: 1rem;
+  }
+  100% {
+    bottom: 6rem;
+    left: 4rem;
+  }
+}
+.gzthree {
+  animation: gzthree linear 5000ms;
+}
+@keyframes gzthree {
+  0% {
+    bottom: 6rem;
+    left: 4rem;
+  }
+  30% {
+    bottom: 4.9rem;
+    left: 4.99rem;
+  }
+  60% {
+    bottom: 4.3rem;
+    left: 4.1rem;
+  }
+  100% {
+    bottom: 3.5rem;
+    left: 5.5rem;
+  }
+}
+.gzfour {
+  animation: gzfour linear 5000ms;
+}
+@keyframes gzfour {
+  0% {
+    bottom: 3.5rem;
+    left: 5.5rem;
+  }
+  0% audio {
+    src: url(../imgs/mp3/4.mp3);
+  }
+  80% {
+    bottom: 2.3rem;
+    left: 4rem;
+  }
+  100% {
+    bottom: 3rem;
+    left: 3.3rem;
+  }
+}
+.ascension {
+  animation: ascension 5000ms ease-out;
+}
+@keyframes ascension {
+  0% {
+    bottom: 0;
+  }
+  10% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -10rem;
+  }
+}
+.dff {
+  animation: dff 5000ms ease-out;
+}
+@keyframes dff {
+  0% {
+    background-position: bottom;
+  }
+  10% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: top;
+  }
+}
+.flay {
+  animation: flay 5000ms ease-out;
+}
+@keyframes flay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.dfg {
+  animation: dfg 5000ms ease-out;
+}
+@keyframes dfg {
+  0% {
+    bottom: -1.81rem;
+  }
+  10% {
+    bottom: -2.01rem;
+  }
+  100% {
+    bottom: -0.65rem;
+  }
+}
+.qq {
+  animation: qq 5000ms ease-out;
+}
+@keyframes qq {
+  0% {
+    bottom: 3rem;
+  }
+  10% {
+    bottom: 2.8rem;
+  }
+  100% {
+    bottom: 4.16rem;
+  }
+}
+.star_beat {
+  animation: star_beat 2000ms linear;
+}
+@keyframes star_beat {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(0 0.1rem);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.star_center {
+  animation: star_center 2000ms linear;
+}
+@keyframes star_center {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.star_left {
+  transform-origin: bottom;
+  animation: star_left 2000ms linear;
+}
+@keyframes star_left {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.star_right {
+  transform-origin: bottom;
+  animation: star_right 2000ms linear;
+}
+@keyframes star_right {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
